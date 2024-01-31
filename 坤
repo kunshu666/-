@@ -7,7 +7,8 @@ if Name == "kunshu6666" then
 whitelist=true
 elseif Name == "hejdhd596" then--要加的时候复制这一行
 whitelist=true--还有这一行
-
+elseif Name == "kunshu657" then--要加的时候复制这一行
+whitelist=true--还有这一行
 
 end--这个不要复制，也不要删
 if whitelist then
