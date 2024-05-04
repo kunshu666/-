@@ -3,7 +3,7 @@ if not Name ==  game.Players.LocalPlayer.Name then
 game.Players.LocalPlayer:Kick("鸡")--因为伪装用户名所以被踢
 end
 whitelist=false
-if Name == "SUBNN5" then
+if Name == "SU" then
 whitelist=true
 elseif Name == "hejdhd596" then--要加的时候复制这一行
 whitelist=true--还有这一行
