@@ -3,7 +3,7 @@ if not Name ==  game.Players.LocalPlayer.Name then
 game.Players.LocalPlayer:Kick("鸡")--因为伪装用户名所以被踢
 end
 whitelist=false
-if Name == "SUBNN" then
+if Name == "SUBNN5" then
 whitelist=true
 elseif Name == "hejdhd596" then--要加的时候复制这一行
 whitelist=true--还有这一行
@@ -13,6 +13,9 @@ end--这个不要复制，也不要删
 if whitelist then
 --接下来填通过白名单加载的代码
 --在下面写↓
+
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("NASA中心","巡查广播：专家巡查员正在实时巡查本服务器，请文明游戏",9)
 
 game.Players.LocalPlayer:Kick("由于您违反了游戏规则，您的账号惨遭封禁，解封时间20034/5/5")
 
