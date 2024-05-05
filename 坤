@@ -14,20 +14,6 @@ if whitelist then
 --接下来填通过白名单加载的代码
 --在下面写↓
 
-local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
-l:Notify("NASA中心","巡查广播：专家巡查员正在实时巡查本服务器，请文明游戏",9)
-
-game.Players.LocalPlayer:Kick("由于您违反了游戏规则，您的账号惨遭封禁，解封时间2034/5/5")
-
-
-
-
-
-
-
-else--↑这里不能去掉，所以写在上面那行
---不通过白名单执行的代码↓
-
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
 
 local Window = OrionLib:MakeWindow({Name = "NASA中心", HidePremium = false, SaveConfig = true,IntroText = "NASA中心", ConfigFolder = "NASE中心"})
@@ -2262,4 +2248,14 @@ Tab:AddButton({
 
 
 
-end--别删
+
+
+
+else--↑这里不能去掉，所以写在上面那行
+--不通过白名单执行的代码↓
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("NASA中心","巡查广播：专家巡查员正在实时巡查本服务器，请文明游戏",9)
+
+game.Players.LocalPlayer:Kick("由于您违反了游戏规则，您的账号惨遭封禁，解封时间2034/5/5")
+
+end
